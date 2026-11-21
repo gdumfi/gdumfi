@@ -1,15 +1,4 @@
-# Full-stack developer
-
-TypeScript · Go · Python · DevOps & integrations
-
-## About
-
-- Ships systems from spec to production: B2B catalog, internal tools, multi-tenant SaaS.
-- CI/CD, monitoring, backups with tested restores.
-- Commercial VPN service under NDA: Go backend, desktop and mobile apps, Telegram bot, payments.
-- Security research: static analysis of smart contracts.
-- AI-assisted development (Claude Code, Codex): specs, ADRs, review.
-- In 2026: ~4,000 commits and 6,000+ automated tests.
+<p align="center"><img src="assets/terminal.gif" alt="Terminal: full-stack developer" width="720"></p>
 
 ## Stack
 

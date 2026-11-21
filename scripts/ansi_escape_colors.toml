@@ -1,0 +1,24 @@
+[mono]
+[mono.default_colors]
+fg = "#e6e6e6"
+bg = "#0a0a0a"
+
+[mono.normal_colors]
+black = "#0a0a0a"
+red = "#505050"
+green = "#686868"
+yellow = "#808080"
+blue = "#989898"
+magenta = "#b0b0b0"
+cyan = "#c8c8c8"
+white = "#d8d8d8"
+
+[mono.bright_colors]
+black = "#303030"
+red = "#707070"
+green = "#888888"
+yellow = "#a0a0a0"
+blue = "#b8b8b8"
+magenta = "#d0d0d0"
+cyan = "#e0e0e0"
+white = "#f2f2f2"
