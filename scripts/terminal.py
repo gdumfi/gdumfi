@@ -38,7 +38,7 @@ import gifos  # noqa: E402  (must be imported after HOME/cwd are set)
 
 PROMPT = "\x1b[1;97mgdumfi@github\x1b[0m:\x1b[0;37m~\x1b[0m$ "
 W = 720
-t = gifos.Terminal(W, 420, 14, 12)
+t = gifos.Terminal(W, 480, 14, 12)
 t.set_prompt(PROMPT)
 t.set_fps(15)
 
@@ -77,22 +77,25 @@ try:
     row = 1
 
     # 2-7. Session
-    command("whoami", "full-stack developer")
+    command("whoami", "full-stack developer \u00b7 infosec student")
     command("cat about.txt", [
-        "- Spec to production: B2B catalog, internal tools, multi-tenant SaaS.",
-        "- CI/CD, monitoring, backups with tested restores.",
-        "- Commercial VPN service under NDA.",
-        "- Smart-contract security research (static analysis).",
-        "- AI-assisted development (Claude Code, Codex).",
+        "- 5th-year information security student",
+        "- security research: static & taint analysis, symbolic execution",
+        "  (KLEE) of smart contracts",
+        "- secure CI: secret scanning, SCA, container scanning, CodeQL,",
+        "  pinned actions",
+        "- spec -> production: CI/CD, monitoring, tested restores",
+        "- commercial VPN service under NDA",
     ], pause=30)
     command("ls stack/", [
+        "security:      gitleaks osv-scanner trivy codeql klee taint-analysis",
+        "               symbolic-execution",
         "languages:     typescript go python rust c++ c# dart solidity bash",
         "backend:       node.js nestjs next.js fastify fastapi prisma grpc openapi",
         "frontend&apps: react vue.js vite tailwind-css flutter telegram-mini-apps",
         "data:          postgresql redis meilisearch sqlite duckdb polars",
         "devops:        docker nginx github-actions linux caddy yandex-cloud",
         "observability: prometheus grafana sentry opentelemetry",
-        "security:      trivy gitleaks codeql klee",
     ], pause=45)
     command("echo $YEAR_2026", "~4,000 commits \u00b7 6,000+ tests", pause=15)
 
