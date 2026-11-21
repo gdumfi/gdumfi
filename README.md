@@ -34,9 +34,4 @@ TypeScript · Go · Python · DevOps & integrations
 - Static analyzers for Solana and Solidity smart contracts
 - A Unity game
 
-## Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=gdumfi&show_icons=true&count_private=true&hide_border=true&custom_title=GitHub%20Stats&bg_color=ffffff&title_color=000000&text_color=333333&icon_color=000000" alt="GitHub statistics card: stars, commits, pull requests, issues" height="160">
-<img src="https://streak-stats.demolab.com?user=gdumfi&background=FFFFFF&ring=000000&fire=000000&currStreakNum=000000&currStreakLabel=000000&sideNums=333333&sideLabels=333333&dates=666666&stroke=CCCCCC&hide_border=true" alt="GitHub contribution streak card" height="160">
-
 <!-- Contacts: add Telegram or email -->
